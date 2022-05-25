@@ -15,8 +15,6 @@ const initdb = async () =>
 // TODO: Add logic to a method that accepts some content and adds it to the database
 // from 19-28 database.js 
 export const putDb = async (content) => {
-  // console.error('putDb not implemented');
-  // console.log('PUT to the database');
   const jateDb = await openDB('jate', 1);
   const tx = jateDb.transaction('jate', 'readwrite');
   const store = tx.objectStore('jate');
@@ -27,9 +25,6 @@ export const putDb = async (content) => {
 
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
-  // console.error('getDb not implemented');
-  // From 19-28 TM 
-  // console.log('GET from the database');
   const jateDb = await openDB('jate', 1);
   const tx = jateDb.transaction('jate', 'readonly');
   const store = tx.objectStore('jate');
