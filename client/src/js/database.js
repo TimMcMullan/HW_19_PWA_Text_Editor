@@ -33,8 +33,8 @@ const text = jateDb.transaction('jate', 'readonly');
 const store = text.objectStore('jate');
 const request = store.get(1);
 const result = await request;
-console.log('result.value', result);
-return result.value;
+console.log(result.value, result);
+return result?.value;
 };
 
 initdb();
