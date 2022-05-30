@@ -61,6 +61,6 @@ Launch a browser, click on the URL bar and type: 'LOCAL HOST:3000'
 [Tim's email address][tims_email]
 
 [github_link]: https://www.github.com/TimMcMullan
-[heroku_link]: https://git.heroku.com/homework-19-progressivewebapps.git
+[heroku_link]: https://arcane-wave-23867.herokuapp.com/
 [tims_email]: mailto:mcmullant@gmail.com
 mcmullant@gmail.com
