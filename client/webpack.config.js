@@ -9,7 +9,7 @@ module.exports = () => {
     mode: 'development',
     entry: {
       main: './src/js/index.js',
-      install: './src/js/install',
+      install: './src/js/install'
     },
     output: {
       filename: '[name].bundle.js',
